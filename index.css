@@ -1,3 +1,7 @@
+*{
+    marign: none;
+    padding: none;
+}
 .attribution {
     font-size: 11px; text-align: center; 
 }
@@ -8,4 +12,97 @@
 
 body {
     background-image: url("images/pattern-background-desktop.svg");
+    font-family: arial;
+}
+
+.summary-card{
+    width: 450px;
+    height: 575px;
+    border-radius: 25px;
+    margin: auto;
+    background-color: white;
+    overflow: hidden;
+}
+
+.text-wrapper h2{
+    margin: 20px 5px 10px 5px;
+    text-align: center;
+}
+
+.text-wrapper p{
+    text-align: center;
+    width: 22em;   
+    margin: auto;
+    font-size: 16px;
+    color: #afb3bd;
+    margin-bottom: 15px;
+}
+
+.pricing-display {
+    width: 275px;
+    height: 75px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.pricing-display .img-wrapper{
+    margin-left: 15px;
+    margin-right: auto;
+}
+
+.pricing-display .plan-wrapper{
+    align-items: left;
+    width: 135px;
+}
+
+.plan-wrapper h5{
+    line-height: 0;
+}
+
+.plan-wrapper p{
+    line-height: 0;
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+.pricing-display .change-wrapper{
+    margin-left: auto;
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+
+.img-wrapper img{
+    vertical-align: middle;
+}
+
+.nav-buttons{
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-buttons button{
+    border: none;
+    border-radius: 5px;
+    width: 275px;
+    height: 40px;
+    margin: 5px;
+}
+
+.pay-button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    box-shadow: 40px 40px;
+}
+
+.cancel-button{
+    background-color: white;
+    color: black;
 }
