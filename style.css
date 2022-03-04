@@ -1,0 +1,130 @@
+:root {
+/* Primary */
+--paleblue: hsl(225, 100%, 94%);
+--brightblue: hsl(245, 75%, 52%);
+
+/* Neutral */
+--verypaleblue: hsl(225, 100%, 98%);
+--desaturatedblue: hsl(224, 23%, 55%);
+--darkblue: hsl(223, 47%, 23%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    line-height:1.5em;
+}
+
+/* body {
+    height:100%;
+    width:100%;
+} */
+
+.bg {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat:no-repeat;
+    background-color: var(--paleblue);
+    border:1px black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.container {
+    width:410px;
+    height:630px;
+    margin:auto;
+    background-color:white;
+    border-radius:15px;
+    box-shadow:3px 3px 3px var(--paleblue);
+    overflow:hidden;
+    margin-bottom:500px;;
+}
+
+.img-wrapper {
+    height:200.45;
+    margin-bottom:40px;
+}
+
+.img-wrapper img{
+    width:100%;
+}
+
+.text-block {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.text-block h1 {
+    font-weight:900;
+    margin-bottom:10px;
+    font-size:30px;
+}
+
+.text-block p {
+    text-align:center;
+    color:var(--desaturatedblue);
+    font-weight:400px;
+    width:290px;
+    margin-bottom:20px;
+}
+
+
+.annual-plan {
+    margin:auto;
+    display:flex;
+    flex-direction:row;
+    width:320px;
+    height:90px;
+    border-radius:10px;
+    justify-content:space-between;
+    align-items:center;
+    background-color:var(--verypaleblue);
+}
+
+.img-wrapper {
+    width:410px;
+    height:200.45px;
+}
+.annual-plan img {
+    height:45px;
+    margin-left:10px;
+    margin-right:20px;
+}
+
+.plan-text-wrapper {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.annual-plan a {
+    margin-right:10px;
+    color:var(--darkblue);
+}
+
+.nav-buttons {
+    margin-top:20px;
+    text-align:center;
+}
+.button {
+    width:320px;
+    height:45px;
+    margin-bottom:10px;
+    border:none;
+    border-radius:10px;
+    font-weight:700;
+}
+
+.proceed-button {
+    background-color:var(--brightblue);
+    color:white;
+}
+
+.cancel-button {
+    background-color:white;
+    color:var(--desaturatedblue);
+}
